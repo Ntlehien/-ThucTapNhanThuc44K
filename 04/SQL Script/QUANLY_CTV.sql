@@ -13,10 +13,10 @@ Add Constraint FK_LOAI_SAN_PHAM Foreign Key (MaLoaiSP) references LOAI_SAN_PHAM 
 select * from CONG_TAC_VIEN
 select * from LOAI_SAN_PHAM
 select * from HOA_DON
-==
-insert into CONG_TAC_VIEN
-values ('a1','mai phong','da nang','1'),
-       ('a2','tran tu','da nang','1'),
+--
+Insert into CONG_TAC_VIEN
+Values ('CTV001','Mai Phong','Da Nang','1'),
+       ('CTV002','Tran Tu','Da Nang','1'),
 	   ('a3','phong nam','ho chi minh','0'),
 	   ('a4','pham huong','ho chi minh','1'),
 	   ('a5','nha uyen','ha noi','1'),
@@ -24,12 +24,12 @@ values ('a1','mai phong','da nang','1'),
 	   ('a7','bich thuy','kon tum','1'),
 	   ('a8','phu truong','dak lak','1'),
 	   ('a9','mai thuy','da lat','0'),
-	   ('a10','phương hai','ho chi minh','0')
+	   ('a10','phuong hai','ho chi minh','0')
 --
-insert into LOAI_SAN_PHAM
-values ('01','nuoc loc','200','dolar'),
-       ('02','nuoc co gas','300','dolar'),
-	   ('03','nuoc khong gas','300','dolar'),
+Insert into LOAI_SAN_PHAM
+Values ('SP001','Nuoc suoi','200','VND'),
+       ('SP002','Nuoc co gas','300','VND'),
+	   ('SP003','Nuoc trai cay','300','VND'),
 	   ('04','banh ngot','500','dolar'),
 	   ('05','banh man','600','dolar'),
 	   ('06','vai thong thuong','300','dolar'),
