@@ -5,7 +5,7 @@ DiaChi nvarchar (100) not null, TrangThai int not null)
 Create Table LOAI_SAN_PHAM (MaLoaiSP int not null Primary Key, TenLoaiSP nvarchar(100) not null,
 DonGiaThue int not null, DonViTinh nvarchar(50) not null)
 Create Table HOA_DON (MaLoaiSP int not null, MaCTV varchar(15) not null,
-SoLuong int not null, ThanhTien int, constraint PK_HOA_DON Primary Key (MaLoaiSP, MaCTV)) 
+SoLuong int not null, ThanhTien int , constraint PK_HOA_DON Primary Key (MaLoaiSP, MaCTV)) 
 Alter Table HOA_DON
 Add Constraint FK_CONG_TAC_VIEN Foreign Key (MaCTV) references CONG_TAC_VIEN (MaCTV)
 Alter Table HOA_DON
@@ -37,7 +37,7 @@ Values ('001','Nuoc suoi','200','VND'),
 	   ('009','Muc trung','100000','VND'),
 	   ('0010','Muc tot','200000','VND')
 --
-insert into HOA_DON 
+insert into HOA_DON (MaLoaiSP,MaCTV,SoLuong,ThanhTien)
 values ('001','CTV001','2','100000'),
        ('002','CTV002','3','900000'),
 	   ('003','CTV003','2','600000'),
