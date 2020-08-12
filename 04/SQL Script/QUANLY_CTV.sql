@@ -1,6 +1,5 @@
 ﻿Create Database QUANLY_CTV
 Use QUANLY_CTV
----
 Create Table CONG_TAC_VIEN (MaCTV varchar (15) not null Primary Key, TenCTV nvarchar(100) not null,
 DiaChi nvarchar (100) not null, TrangThai int not null)
 Create Table LOAI_SAN_PHAM (MaLoaiSP int not null Primary Key, TenLoaiSP nvarchar(100) not null,
@@ -11,7 +10,6 @@ Alter Table HOA_DON
 Add Constraint FK_CONG_TAC_VIEN Foreign Key (MaCTV) references CONG_TAC_VIEN (MaCTV)
 Alter Table HOA_DON
 Add Constraint FK_LOAI_SAN_PHAM Foreign Key (MaLoaiSP) references LOAI_SAN_PHAM (MaLoaiSP)
----
 Insert into CONG_TAC_VIEN
 Values ('0793672769','Mai Phong','Da Nang','1'),
        ('0707097508','Tran Tu','Da Nang','1'),
@@ -90,6 +88,10 @@ values ('001','CTV001','2','100000'),
 Update HOA_DON
 Set ThanhTien = SoLuong * DonGiaThue
 From HOA_DON inner join LOAI_SAN_PHAM
+<<<<<<< HEAD
 on HOA_DON.MaLoaiSP = LOAI_SAN_PHAM.MaLoaiSP
 ---
 >>>>>>> e466d1e321a3eb2d518d45a1e649b563ed608de9
+=======
+on HOA_DON.MaLoaiSP = LOAI_SAN_PHAM.MaLoaiSP
+>>>>>>> b4f3d0349d7e1939dd48f16c9577b9f05d698ad7
