@@ -1,0 +1,10 @@
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.frmQuocThien.resources
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Thien\Documents\GitHub\ThucTapNhanThuc44K\ThucHanh\Calculator\Calculator\obj\Debug\Calculator.pdb
